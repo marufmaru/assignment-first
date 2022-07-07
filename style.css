@@ -35,16 +35,15 @@
 
 }
 
-ing: 12px 34px;
-font-size: 15px;
 
-posit .style-btn {
+
+.style-btn {
     display: inline-block;
     text-decoration: none;
     color: wheat;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
-    paddion: relative;
+    paddion: 10px 40px;
     cursor: pointer;
     font-weight: 700;
 }
