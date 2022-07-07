@@ -47,3 +47,206 @@
     cursor: pointer;
     font-weight: 700;
 }
+
+.donate {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.donate h1 {
+    font-weight: 800px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.half-width {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: honeydew;
+    justify-content: center;
+
+
+}
+
+
+
+.box {
+    width: 50%;
+    height: 65%;
+    background: rgb(146, 218, 194);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    align-items: center;
+}
+
+.input-data {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.input[type=text] {
+    padding: 12px 50px;
+    margin: 8px 0;
+
+    border top: none;
+
+}
+
+.button {
+    margin-left: 20%;
+    padding: 5px 10px;
+    background-image: linear-gradient(#0077b6, #00b4d8);
+    color: rgb(33, 67, 105);
+    border-radius: 20px;
+}
+
+.donate-plan h1 {
+    margin-top: 100px;
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+}
+
+.donate-plan p {
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+}
+
+
+
+.donate-last {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.inner-grid1 {
+    width: 30%;
+    background-color: #00b4d8;
+    margin-left: 5px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.inner-grid2 {
+    width: 30%;
+    background-color: #48cae4;
+    margin-left: 5px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.inner-grid3 {
+    width: 30%;
+    background-color: #90e0ef;
+    margin-left: 5px;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.inner-mode img {
+    height: 60px;
+    width: 60px;
+}
+
+.ourmission {
+    margin-top: 100px;
+    display: flex;
+    background-image: url(images/world-bg.png);
+    background-repeat: no-repeat;
+}
+
+.ourmission-left {
+    width: 45%;
+    margin-top: 7%;
+    padding-left: 10%;
+}
+
+.ourmission-left h1 {
+    font-size: 45px;
+}
+
+.ourmission p {
+    font-size: 18px;
+}
+
+.ourmission-right {
+    width: 45%;
+    margin-top: 70px;
+    padding-left: 10%;
+}
+
+.subscription h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #000;
+    margin-top: 100px;
+
+}
+
+.subscription p {
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+
+
+}
+
+.subscription p {
+    font-size: 18px;
+}
+
+input[type=email] {
+    padding: 12px 60px;
+    margin: 8px 0;
+    border: 1px solid #90e0ef;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(236, 236, 236);
+}
+
+
+input[type=button] {
+    background-image: linear-gradient(#0077b6, #00b4d8);
+    border: none;
+    color: white;
+    padding: 13px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: -10px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+::placeholder {
+    color: rgb(202, 202, 202);
+    opacity: 9;
+    font-size: 15px;
+    text-align: center;
+}
+
+.sub-bottom {
+    background-color: #00b4d83b;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.footer-bottom {
+    text-align: center;
+    background: #00b4d8;
+    padding: 30px;
+}
